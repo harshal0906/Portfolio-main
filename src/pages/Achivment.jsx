@@ -18,9 +18,9 @@ const Achivment = () => {
       <div className="max-w-5xl mx-auto text-center">
         {/* Title */}
         <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-          <h2 className="text-4xl md:text-5xl font-bold mb-12">
-            🎯{" "}
-            <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 ">
+            {" "}
+            <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent border-b-2 border-purple-500">
               My Achievements
             </span>
           </h2>
@@ -41,7 +41,7 @@ const Achivment = () => {
                   🏆
                 </div>
                 <p className="text-lg text-gray-300 leading-relaxed group-hover:text-white">
-                  ✅ {item}
+                  - {item}
                 </p>
               </div>
             </FadeContent>

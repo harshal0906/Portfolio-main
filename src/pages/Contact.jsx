@@ -55,24 +55,21 @@ const Contact = () => {
     };
 
     const contactInfo = [
-        { icon: "📱", label: "Phone", value: "+91 xxxxx xx656" },
+        { label: "Phone", value: "+91 xxxxx xx656" },
         {
-            icon: "✉️",
             label: "Email",
             value: "harshalgadher04@gmail.com",
-            link: "mailto:harshalgadher04@gmail.com",
+            link: 'mailto:yourname@example.com',
         },
         {
-            icon: "🐙",
             label: "GitHub",
             value: "github.com/harshalgadher",
-            link: "https://github.com/harshalgadher",
+            link: "https://github.com/harshal0906",
         },
         {
-            icon: "💼",
             label: "LinkedIn",
             value: "linkedin.com/in/harshalgadher",
-            link: "https://linkedin.com/in/harshalgadher",
+            link: "https://www.linkedin.com/in/harshal-gadher-565661308/",
         },
     ];
 
@@ -82,6 +79,7 @@ const Contact = () => {
                 {/* Fade-In Main Section */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
+                    
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true }}
@@ -89,8 +87,8 @@ const Contact = () => {
                 >
                     {/* Left Side */}
                     <div className="bg-gradient-to-br from-purple-700/40 via-indigo-700/20 to-transparent p-10 flex flex-col justify-center items-center text-center">
-                        <div className="text-6xl mb-6">🙏</div>
-                        <h2 className="text-4xl font-semibold mb-4">Thank You!</h2>
+                        <div className="text-6xl mb-6"></div>
+                        <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">Thank You!</h2>
                         <p className="text-gray-300 max-w-md text-lg leading-relaxed">
                             I truly appreciate you taking the time to visit my portfolio. Your
                             feedback helps me grow and improve. Let's connect!
@@ -183,7 +181,7 @@ const Contact = () => {
                                             Sending...
                                         </span>
                                     ) : (
-                                        "Send Feedback 🚀"
+                                        "Send Feedback.."
                                     )}
                                 </button>
                             </form>
@@ -199,8 +197,8 @@ const Contact = () => {
                     viewport={{ once: true }}
                     className="bg-gray-900/60 border border-gray-700 rounded-3xl p-10 shadow-lg"
                 >
-                    <h3 className="text-3xl font-semibold text-center mb-10">
-                        Let’s Connect 🤝
+                    <h3 className="text-3xl font-semibold text-center mb-10 ">
+                       <span className="bg-gradient-to-r font-extrabold from-purple-500 to-pink-500 bg-clip-text text-transparent"> Let’s Connect</span>
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {contactInfo.map((item, i) => (
@@ -211,7 +209,6 @@ const Contact = () => {
                                 rel="noopener noreferrer"
                                 className="p-6 rounded-2xl text-center bg-gray-800/50 hover:bg-gray-800/80 border border-gray-700 transition-all hover:scale-[1.03] hover:shadow-xl"
                             >
-                                <div className="text-4xl mb-3">{item.icon}</div>
                                 <h4 className="text-lg font-semibold mb-1">{item.label}</h4>
                                 <p className="text-gray-400 text-sm break-all">{item.value}</p>
                             </a>
