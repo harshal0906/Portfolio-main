@@ -5,8 +5,8 @@ import HomePage from "./pages/HomePage"
 import About from "./pages/About"
 import 'remixicon/fonts/remixicon.css'
 import Skills from "./pages/Skills"
-import Achivment from "./pages/Achivment"
 import Contact from "./pages/Contact"
+import Projects from "./pages/Projects"
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/" element={<HomePage />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/skills" element={<Skills/>} />
-        <Route path="/achievement" element={<Achivment />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>

@@ -7,12 +7,10 @@ const About = () => {
     <div className="text-white py-16 bg-[#0d1425]">
       <div className="container mx-auto px-6">
         <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-          {/* Title */}
           <h2 className="text-4xl font-bold text-center mb-12">
             Quick Facts <span className="text-purple-400">About Me</span>
           </h2>
 
-          {/* Quick Facts Grid */}
           <div className="grid grid-cols-1 mb-10 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-16">
             {[
               {
@@ -46,10 +44,7 @@ const About = () => {
             ))}
           </div>
 
-          {/* Unified Container (Image + Text) */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 bg-[#111a2e] rounded-2xl p-8 shadow-lg border border-purple-600/20">
-
-            {/* Left Side Image */}
             <div className="w-full md:w-1/2 flex justify-center">
               <div className="relative group">
                 <img
@@ -61,7 +56,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Right Side Content */}
             <div className="w-full md:w-1/2 text-center md:text-left">
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 Hi, I'm <span className="text-purple-400 font-bold">Harshal</span> — a
@@ -73,7 +67,7 @@ const About = () => {
 
               <a
                 href={myResume}
-                download="Harshal_Resume.pdf"
+                download="Resume.pdf"
                 className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold py-3 px-6 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
               >
                 📄 Download Resume

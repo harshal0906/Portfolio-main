@@ -1,9 +1,9 @@
 import BlurText from "../components/BlurText";
 import FadeContent from "../components/FadeContent";
 import About from "./About";
-import Achivment from "./Achivment";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Projects from "./Projects";
 
 const HomePage = () => {
     return (
@@ -81,7 +81,7 @@ const HomePage = () => {
             {/* Other Sections */}
             <About />
             <Skills />
-            <Achivment />
+            <Projects />
             <Contact />
         </div>
     );

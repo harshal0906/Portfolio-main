@@ -49,6 +49,7 @@ const Header = () => {
                             { to: "/about", label: "About" },
                             { to: "/skills", label: "Skills" },
                             { to: "/achievement", label: "Achievement" },
+                            { to: "/projects", label: "Projects" },
                             { to: "/contact", label: "Contact" },
                         ].map(({ to, label }) => (
                             <li key={to} className="w-full md:w-auto">

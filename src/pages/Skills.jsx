@@ -31,12 +31,12 @@ const Skills = () => {
                             {
                                 title: "Backend Development",
                                 desc: "Architecting and maintaining scalable and secure backend systems",
-                                skills: ["Node.js", "Express.js", "REST APIs", "Redis", "Postman", "Web Sockets", "Mongoose"],
+                                skills: ["Node.js", "Express.js", "REST APIs", "Web Sockets"],
                             },
                             {
                                 title: "Database Management",
                                 desc: "Building and deploying AI-driven solutions to solve real-world problems",
-                                skills: ["MySQL", "MongoDB", "Firebase", "MongoDB Atlas", "PhpMyAdmin"],
+                                skills: ["MySQL", "MongoDB", "Firebase", "PhpMyAdmin"],
                             },
                         ].map((section, index) => (
                             <FadeContent
