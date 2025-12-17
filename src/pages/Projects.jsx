@@ -6,7 +6,7 @@ const Projects = () => {
             title: "Porfolio-web",
             description:
                 "A full-stack online store with payment integration and inventory management.",
-            image:'/public/images/img-1.jpg',
+            image:'/images/img-1.jpg',
             url: "https://portfolio-main-pi-one.vercel.app/",
         },
         {
@@ -14,7 +14,7 @@ const Projects = () => {
             title: "lab-tracker-react",
             description:
                 "Helps automate daily lab tasks and saves time for teachers and students.",
-            image:'/public/images/img-2.jpg',
+            image:'/images/img-2.jpg',
             url: "https://lab-tracker-react.vercel.app/",
         },
         {
@@ -22,7 +22,7 @@ const Projects = () => {
             title: "Calculator",
             description:
                 "Designed with a clean interface to help users solve everyday calculations effortlessly.",
-            image:"/public/images/img-3.jpg",
+            image:"/images/img-3.jpg",
             url: "https://task-3-iota-five.vercel.app/",
         },
         {
@@ -30,7 +30,7 @@ const Projects = () => {
             title: "To-Do-List-firestore",
             description:
                 "Keeps work organized and boosts productivity with a clean and simple interface.",
-            image:'/public/images/img-4.jpg',
+            image:'/images/img-4.jpg',
             url: "https://todo-list-firebase-eight.vercel.app/",
         },
         {
@@ -38,14 +38,14 @@ const Projects = () => {
             title: "To-Do-List in js",
             description:
                 "Make to-so-list  using html,css, java-script. This project inprove my javascript fundamentals.",
-            image:'/public/images/img-5.jpg',
+            image:'/images/img-5.jpg',
             url: "https://harshal0906.github.io/task-2/",
         },
         {
             id: 6,
             title: "Course-management-react",
             description:'A system that allows users to create, update, and manage courses with smooth navigation and easy controls.',
-            image:'/public/images/img-6.jpg',
+            image:'/images/img-6.jpg',
             url: "https://course-management-react.vercel.app/",
         },
         {
@@ -53,7 +53,7 @@ const Projects = () => {
             title: "Cafe management firebase ",
             description:
                 "A system that manages orders, menu items, billing, and customer service in one smooth workflow.",
-            image:'/public/images/img-7.jpg',
+            image:'/images/img-7.jpg',
             url: "https://pr-firebase-crud.vercel.app/",
         },
         {
@@ -61,7 +61,7 @@ const Projects = () => {
             title: "weather-API",
             description:
                 "Gives users quick and accurate weather updates with a clean and easy-to-understand interface.",
-            image:'/public/images/img-8.jpg',
+            image:'/images/img-8.jpg',
             url: "https://harshal0906.github.io/pr-10-weatherAPI/",
         },
     ];
