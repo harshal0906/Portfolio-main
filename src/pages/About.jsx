@@ -1,5 +1,5 @@
 import FadeContent from "../components/FadeContent";
-import myResume from "/Resume.pdf";
+import myResume from "/resumePDF.pdf";
 import myPhoto from "/my-img.jpg";
 
 const About = () => {
