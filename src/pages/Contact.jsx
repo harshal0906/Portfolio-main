@@ -55,7 +55,7 @@ const Contact = () => {
     };
 
     const contactInfo = [
-        { label: "Phone", value: "+91 xxxxx xx656" },
+        { label: "Phone", value: "+91 94268 43656" },
         {
             label: "Email",
             value: "harshalgadher04@gmail.com",
