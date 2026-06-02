@@ -58,11 +58,19 @@ const About = () => {
 
             <div className="w-full md:w-1/2 text-center md:text-left">
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Hi, I'm <span className="text-purple-400 font-bold">Harshal</span> — a
-                passionate <span className="text-purple-400 font-bold">Frontend Developer</span> skilled in modern web technologies like{" "}
-                <span className="text-purple-400 font-bold">React</span>,{" "}
+                Hi, I'm <span className="text-purple-400 font-bold">Harshal</span> — an aspiring{" "}
+                <span className="text-purple-400 font-bold">MERN Stack Developer</span> with
+                hands-on experience in building modern web applications. I work with{" "}
+                <span className="text-purple-400 font-bold">MongoDB</span>,{" "}
+                <span className="text-purple-400 font-bold">Express.js</span>,{" "}
+                <span className="text-purple-400 font-bold">React.js</span>,{" "}
+                <span className="text-purple-400 font-bold">Node.js</span>,{" "}
                 <span className="text-purple-400 font-bold">JavaScript</span>, and{" "}
-                <span className="text-purple-400 font-bold">Tailwind CSS</span>. I specialize in crafting responsive, user-friendly, and visually engaging web interfaces. I love transforming creative ideas into interactive digital experiences and continuously improving my skills to stay aligned with the latest frontend trends.
+                <span className="text-purple-400 font-bold">Tailwind CSS</span>. I enjoy
+                developing responsive, user-friendly, and scalable web applications, from
+                interactive frontend interfaces to robust backend systems. I'm passionate
+                about solving real-world problems through code and continuously expanding my
+                skills in full-stack development.
               </p>
 
               <a
