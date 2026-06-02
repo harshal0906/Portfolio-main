@@ -27,11 +27,11 @@ const Projects = () => {
         },
         {
             id: 4,
-            title: "To-Do-List-firestore",
+            title: "clinic-appointment-portal",
             description:
                 "Keeps work organized and boosts productivity with a clean and simple interface.",
             image:'/images/img-4.jpg',
-            url: "https://todo-list-firebase-eight.vercel.app/",
+            url: "https://clinic-appointment-portal.vercel.app",
         },
         {
             id: 5,
@@ -63,6 +63,14 @@ const Projects = () => {
                 "Gives users quick and accurate weather updates with a clean and easy-to-understand interface.",
             image:'/images/img-8.jpg',
             url: "https://harshal0906.github.io/pr-10-weatherAPI/",
+        },
+        {
+            id: 9,
+            title: "Blog-App",
+            description:
+                "Gives users quick and add blogs also updates with a clean and easy-to-understand.",
+            image:'/images/img-9.jpg',
+            url: "https://blog-app-multi-user.vercel.app",
         },
     ];
 
